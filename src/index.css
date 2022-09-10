@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F5F7;
+}
+
+.form{
+background-color: #FFFFFF;
+width: 400px;
+height: 500px;
+border-radius: 10px;
+padding: 20px;
+}
+
+.inner{
+text-align: center;
+}
+
+.round-btn{
+border-radius: 50%;
+width: 50px;
+height: 50px;
+border: 5px solid #362EB5;
+background-color: white;
+color: #362EB5;
+font-size:x-large;
+margin: 5px;
+font-weight: bolder;
+transition: all 0.5s linear;
+}
+.round-btn:hover{
+  border-radius: 0%;
+
+}
+
+.square-btn{
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color:  #362EB5;
+  color:white;
+  font-size:x-large;
+  margin: 5px;
+  font-weight: bolder;
+  transition: all 0.5s linear;
+  }
+
+
+.innerButtons{
+margin: auto;
+width: 80%;
+}
+.bad{
+  font-weight: bold;
+  font-size: small;
+
+}
+.good{
+position: relative;
+bottom: 30px;
+left: 270px;
+font-weight: bold;
+font-size: small;
+}
+
+.label{
+margin: 10px;
+}
+.textInner{
+width: 97%;
+
+}
+.mail{
+  width: 97%;
+}
+.submit{
+margin:30px;
+width: 100%;
+position: relative;
+right: 30px;
+color: white;
+background-color: #362EB5;
+border: none;
+height: 35px;
+font-size:medium;
+}
+.results{
+ margin: 50px; 
+ width: 600px;
+ height: 100px;
+}
